@@ -1,7 +1,7 @@
 // Change welcome text dynamically
 function changeWelcomeText() {
   const heading = document.querySelector('.hero-content h1');
-  heading.textContent = 'You’re Protected with SafeGuard!';
+  heading.textContent = 'You’re Protected with SalGuard!';
 }
 
 // Modify CSS styles
