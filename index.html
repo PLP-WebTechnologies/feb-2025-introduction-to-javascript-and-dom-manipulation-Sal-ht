@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SafeGuard Insurance</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">SafeGuard</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero fade-in">
+    <div class="hero-content">
+      <h1>Your Protection. Our Promise.</h1>
+      <p>Insurance that adapts to your life. Trusted. Transparent. Tech-enabled.</p>
+      <button onclick="changeWelcomeText()">Get Started</button>
+    </div>
+  </section>
+
+  <!-- About + Services -->
+  <section class="info-section fade-in">
+    <div class="info-container">
+      <div class="info-card slide-in-left" id="about">
+        <h2>About SafeGuard</h2>
+        <p>We simplify insurance with digital-first solutions for freelancers, families, and small businesses. Powered by AI. Backed by people.</p>
+        <button onclick="highlightAbout()">Why Choose Us?</button>
+      </div>
+      <div class="info-card slide-in-left" id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Health & Life Insurance</li>
+          <li>Auto & Property Coverage</li>
+          <li>Microinsurance for Gig Workers</li>
+          <li>Blockchain-Based Claims</li>
+        </ul>
+        <button onclick="addService()">Add a Service</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section fade-in" id="contact-section">
+    <h2 id="contact">Contact Us</h2>
+    <address>
+      <p>Email: <a href="mailto:support@safeguard.com">support@safeguard.com</a></p>
+      <p>Phone: <a href="tel:+18005551234">+1 (800) 555-1234</a></p>
+      <p>Location: 456 Innovation Blvd, Tech City, USA</p>
+    </address>
+    <button onclick="removeContact()">Remove Contact Info</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 SafeGuard Insurance</p>
+    <p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
